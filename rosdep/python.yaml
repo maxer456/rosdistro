@@ -7829,6 +7829,7 @@ python3-rdflib:
 python3-requests:
   debian: [python3-requests]
   fedora: [python3-requests]
+  gentoo: [dev-python/requests]
   nixos: [python3Packages.requests]
   openembedded: [python3-requests@meta-python]
   rhel: ['python%{python3_pkgversion}-requests']
@@ -8000,6 +8001,7 @@ python3-sense-hat-pip:
 python3-serial:
   debian: [python3-serial]
   fedora: [python3-pyserial]
+  gentoo: [dev-python/pyserial]
   nixos: [python3Packages.pyserial]
   openembedded: [python3-pyserial@meta-python]
   rhel:
@@ -8204,6 +8206,7 @@ python3-sounddevice-pip:
 python3-sphinx:
   debian: [python3-sphinx]
   fedora: [python3-sphinx]
+  gentoo: [dev-python/sphinx]
   nixos: [python3Packages.sphinx]
   openembedded: [python3-sphinx@meta-ros-common]
   opensuse: [python3-Sphinx]

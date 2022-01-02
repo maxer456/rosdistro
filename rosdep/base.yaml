@@ -311,6 +311,7 @@ benchmark:
     '*': [libbenchmark-dev]
     stretch: null
   fedora: [google-benchmark-devel]
+  gentoo: [dev-cpp/benchmark]
   nixos: [gbenchmark]
   openembedded: [google-benchmark@meta-ros2]
   rhel: [google-benchmark-devel]
@@ -1271,6 +1272,7 @@ geographiclib:
     stretch: [libgeographic-dev]
     wheezy: [libgeographiclib-dev]
   fedora: [GeographicLib-devel]
+  gentoo: [sci-geosciences/GeographicLib]
   nixos: [geographiclib]
   openembedded: [geographiclib@meta-ros-common]
   rhel: [GeographicLib-devel]
@@ -4113,6 +4115,7 @@ libomp-dev:
   arch: [openmp]
   debian: [libomp-dev]
   fedora: [libomp-devel]
+  gentoo: [sys-libx/libomp]
   nixos: [llvmPackages.openmp]
   rhel:
     '*': [libomp-devel]
@@ -4530,6 +4533,7 @@ libqd-dev:
 libqglviewer-dev-qt5:
   debian: [libqglviewer-dev-qt5]
   fedora: [libQGLViewer-qt5-devel]
+  gentoo: ['x11-libs/libQGLViewer:0/qt5']
   nixos: [libsForQt5.libqglviewer]
   openembedded: [qtbase@meta-qt5]
   rhel:
@@ -4594,6 +4598,7 @@ libqglviewer-qt4-dev:
 libqglviewer2-qt5:
   debian: [libqglviewer2-qt5]
   fedora: [libQGLViewer-qt5]
+  gentoo: ['x11-libs/libQGLViewer:0/qt5']
   nixos: [libsForQt5.libqglviewer]
   rhel:
     '*': [libQGLViewer-qt5]
@@ -6724,6 +6729,7 @@ psutils:
 pugixml-dev:
   debian: [libpugixml-dev]
   fedora: [pugixml-devel]
+  gentoo: [dev-libs/pugixml]
   nixos: [pugixml]
   openembedded: [pugixml@meta-oe]
   rhel: [pugixml-devel]
